@@ -58,6 +58,6 @@ cran_pkg_sbom <- function(pkg) {
     })
   ) -> out
 
-  jsonlite::toJSON(out, pretty = TRUE)
+  jsonlite::toJSON(out, auto_unbox = TRUE, pretty = TRUE)
 
 }

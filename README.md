@@ -29,8 +29,8 @@ are provided to make SBOMs for R things.
 
 ### Issues
 
--   [ ] Handle Licenses (PARTIAL SUPPORT EXISTS)
--   [ ] Handle Authors (PARTIAL SUPPORT EXISTS)
+-   [ ] Handle Licenses (PARTIAL SUPPORT EXISTS) (Is deprecated moved to simple new version, so it is accepted by dependency track)
+-   [ ] Handle Authors (PARTIAL SUPPORT EXISTS)  (Is deprecated, but out version of dependency track does not accept the new syntax)
 -   [ ] Get some buy-in on purls, BOM-refs, etc
 -   [ ] Handle non-CRAN packages
 -   [ ] Handle Shiny apps
