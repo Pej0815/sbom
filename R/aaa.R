@@ -43,7 +43,7 @@ list(
 mk_lic <- function(pkg) {
 
   lic <- lic_trans[[utils::packageDescription(pkg)$License]]
-  lic <- lapply(lic, function(x) list(license = (id = x)))
+  lic <- lapply(lic, function(x) list(license = list(id = x)))
 
   if (is.null(lic)) {
     list()
